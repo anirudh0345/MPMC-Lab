@@ -29,7 +29,7 @@ BACK:  MOV BH,00H
        XOR AX,AX
        CMP CL,100D
        JNE BACK
-       JNE FINAL
+       JE FINAL
 
 DELAY PROC NEAR
        PUSH CX
